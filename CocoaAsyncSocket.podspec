@@ -25,6 +25,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
                   'delegate support, run-loop based, self-contained class, and support for IPv4 and IPv6.'
 
   s.source_files = 'Source/GCD/*.{h,m}'
+  s.dependency     "CocoaLumberjack"
 
   s.requires_arc = true
 
